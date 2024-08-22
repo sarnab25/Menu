@@ -1,6 +1,5 @@
 import axios from 'axios';
-
-const API = axios.create({ baseURL: 'http://localhost:5050/' });
+const API = axios.create({ baseURL: 'https://menu-management-g3wr.onrender.com' });
 
 API.interceptors.request.use(req => {
     if (localStorage.getItem('Profile')) {

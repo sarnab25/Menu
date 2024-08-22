@@ -26,7 +26,7 @@ useEffect(()=>
     const getItem =async()=>
     {
         try {
-            const response = await axios.get(`http://localhost:5050/subcategory/item/${id}/`)
+            const response = await axios.get(`https://menu-management-g3wr.onrender.com/subcategory/item/${id}/`)
             const item=response.data
             console.log(item)
 

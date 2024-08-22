@@ -27,7 +27,7 @@ function CreateCategory({setcreate}) {
     }
 
     try {
-        const response =await axios.post("http://localhost:5050/categories/create",formData,{ headers: {
+        const response =await axios.post("https://menu-management-g3wr.onrender.com/categories/create",formData,{ headers: {
             'Content-Type': 'multipart/form-data',
           },})
           console.log("Category created", response.data)

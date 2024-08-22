@@ -22,7 +22,7 @@ const {id}=useParams()
         const getCategory=async()=>
         {
             try {
-                const response =await axios.get(`http://localhost:5050/categories/${id}`)
+                const response =await axios.get(`https://menu-management-g3wr.onrender.com/categories/${id}`)
                 const category=response.data
                 setname(category.name)
                 setdescription(category.description)

@@ -31,7 +31,7 @@ function CreateItem({setcreate,subCategoryId}) {
     formData.append("subcategory", subCategoryId)
 
     try {
-        const response =await axios.post("http://localhost:5050/subcategory/create/item",formData,{ headers: {
+        const response =await axios.post("https://menu-management-g3wr.onrender.com/subcategory/create/item",formData,{ headers: {
             'Content-Type': 'multipart/form-data',
           },})
           console.log("Item created", response.data)
