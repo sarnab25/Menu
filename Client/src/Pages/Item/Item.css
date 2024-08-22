@@ -1,0 +1,17 @@
+.item-container
+{
+display: flex;
+    justify-content: space-evenly;
+}
+.edit
+{
+    margin-left: 5rem;
+}
+
+.container-3
+{
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+justify-content: space-evenly;
+}

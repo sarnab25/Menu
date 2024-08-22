@@ -1,0 +1,42 @@
+.container1
+{
+    background-color: rgba(82, 81, 81, 0.966);
+    width: 100vw;
+    height: 100vh;
+    z-index: 500;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.container2
+{
+background-color: black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+color: aliceblue;
+width: 20vw;
+height: 60vh;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+top: 200px;
+left: 800px;
+
+}
+
+.x-btn
+{
+    font-size: 3rem;
+    color: black;
+    position: fixed;
+    top: 0px;
+    right: 4px;
+}
+
+.x-btn:hover
+{
+    color: red;
+    font-weight: bolder;
+}

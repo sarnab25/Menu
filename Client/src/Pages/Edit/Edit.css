@@ -1,0 +1,28 @@
+.container1-edit
+{
+    background-color: rgba(82, 81, 81, 0.966);
+    width: 100vw;
+    height: 100vh;
+    z-index: 500;
+    position: absolute;
+    top: 0px;
+    
+}
+
+.container2-edit
+{
+background-color: black;
+border-radius: 10px;
+display: flex;
+flex-direction: column;
+color: aliceblue;
+width: 20vw;
+height: 60vh;
+justify-content: space-evenly;
+align-items: center;
+position: relative;
+top: 200px;
+left: 800px;
+
+}
+

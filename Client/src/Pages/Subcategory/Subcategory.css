@@ -1,0 +1,9 @@
+.subcategory-container
+{
+    display: flex;
+    justify-content: space-evenly;
+}
+.edit
+{
+    margin-left: 5rem;
+}
